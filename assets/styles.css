@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Upright:wght@300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Cormorant Upright', serif;
+}
+
+
+header {
+    background: black;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 30px 0px 30px;
+    flex-wrap: wrap;
+}
+
+.logo {
+    height: 170px;
+    flex-wrap: wrap;
+}
+
+.navbar,
+.navbar-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 150px;
+    flex-wrap: wrap;
+}
+
+.navbar-list a {
+    color: #96989B;
+    font-size: 20px;
+}
+
+a:hover {
+    color: #F0F7F5 ;
+}
+
+.fa-solid{
+    color: #96989B;
+    flex-wrap: wrap;
+}
+
+.fa-solid:hover {
+    color: #F0F7F5 ;
+}
+
+.navbar-list li:first-child > a {
+    color: #F0F7F5 ;
+    font-weight: 800;
+}
+
+.navbar-list li:first-child > a:hover {
+    color: #96989B;
+}
+
+
