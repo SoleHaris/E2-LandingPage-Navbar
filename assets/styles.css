@@ -246,6 +246,7 @@ a.reseña:hover{
     align-items: center;
     flex-direction: column;
     gap: 80px;
+    margin-bottom: 65px;
 }
 
 #contacto h2 {
