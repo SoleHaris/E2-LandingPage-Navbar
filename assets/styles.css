@@ -134,26 +134,20 @@ main {
     align-items: center;
 }
 
-@media (max-width: 768px) {
-    #hero {
-        margin-top: 65px;
-        padding: 70px;
-    }
-}
-
 @media (max-width: 576px) {
     #hero h1{
         min-width: 390px;
     }
 
     #hero p {
-        width: 340px;
+        width: auto;
+        font-size: 18px;
     }
 }
 
 @media (max-width: 857px) {
     #hero {
-        display:contents;
+        flex-wrap: wrap;
     }
 }
 
@@ -232,13 +226,6 @@ a.reseña:hover{
     border: 10px solid black;
 }
 
-@media (max-width: 576px) {
-    #hero img {
-        margin-top: 25px;
-        margin-bottom: 25px;
-    }
-}
-
 #info {
     padding: 70px;
     max-width: 1200px;
@@ -247,8 +234,17 @@ a.reseña:hover{
     flex-direction: column;
 }
 
-@media (max-width: 576px) {
+@media (min-width: 576px) {
     #info p{
+        flex-wrap: wrap;
+        min-width: 250px;
+        font-size: 18px;
+    }
+}
+
+@media (min-width: 768px) {
+    #info p{
+        flex-wrap: wrap;
         min-width: 250px;
         font-size: 18px;
     }
@@ -361,6 +357,7 @@ a.reseña:hover{
 @media (max-width: 768px) {
     .contacto-info-container {
         display: block;
+        flex-wrap: wrap;
     }
 }
 
