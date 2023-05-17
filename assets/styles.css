@@ -83,7 +83,7 @@ a:hover {
 
 @media (max-width: 857px) {
     .navbar ul {
-        background: #536976;
+        background: black;
         width: 19%;
         position: absolute;
         top: 130px;
@@ -151,11 +151,8 @@ main {
     }
 }
 
-
 @media (max-width: 857px) {
     #hero {
-        margin-top: 65px;
-        padding: 70px;
         display:contents;
     }
 }
@@ -238,6 +235,7 @@ a.reseña:hover{
 @media (max-width: 576px) {
     #hero img {
         margin-top: 25px;
+        margin-bottom: 25px;
     }
 }
 
@@ -251,7 +249,8 @@ a.reseña:hover{
 
 @media (max-width: 576px) {
     #info p{
-        min-width: 300px;
+        min-width: 250px;
+        font-size: 18px;
     }
 }
 
