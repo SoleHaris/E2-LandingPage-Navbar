@@ -139,11 +139,18 @@ main {
         margin-top: 65px;
         padding: 70px;
     }
+}
 
-    .hero-info h1 {
-        color: #536976;
+@media (max-width: 576px) {
+    #hero h1{
+        min-width: 408px;
+    }
+
+    #hero p {
+        width: auto;
     }
 }
+
 
 @media (max-width: 857px) {
     #hero {
@@ -236,6 +243,12 @@ a.reseña:hover{
     flex-direction: column;
 }
 
+@media (max-width: 576px) {
+    #info p{
+        min-width: 317px;
+    }
+}
+
 .info-nosotros {
     width: 100%;
     max-width: 1200px;
@@ -284,6 +297,11 @@ a.reseña:hover{
     text-align: center;
 }
 
+@media (max-width: 576px) {
+    #cards h2{
+        min-width: 424px;
+    }
+}
 .cards-info-container {
     display: flex;
     justify-content: space-around;
