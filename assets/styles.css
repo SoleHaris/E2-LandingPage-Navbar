@@ -321,6 +321,12 @@ a.reseña:hover{
     width: 80px;
 }
 
+@media (max-width: 768px) {
+    .cards-info {
+        background: linear-gradient(to left, #536976, #BBD2C5);
+    }
+}
+
 #contacto {
     padding: 70px;
     max-width: 1200px;
