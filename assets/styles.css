@@ -236,7 +236,7 @@ a.reseña:hover{
 
 @media (min-width: 576px) {
     #info p{
-        min-width: 300px;
+        min-width: 390px;
         font-size: 20px;
     }
 }
