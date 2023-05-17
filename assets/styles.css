@@ -143,7 +143,7 @@ main {
 
 @media (max-width: 576px) {
     #hero h1{
-        min-width: 408px;
+        min-width: 390px;
     }
 
     #hero p {
@@ -235,6 +235,13 @@ a.reseña:hover{
     border: 10px solid black;
 }
 
+@media (max-width: 576px) {
+    #hero img {
+        border-radius: 2px solid black;
+        margin-top: 25px;
+    }
+}
+
 #info {
     padding: 70px;
     max-width: 1200px;
@@ -245,7 +252,7 @@ a.reseña:hover{
 
 @media (max-width: 576px) {
     #info p{
-        min-width: 317px;
+        min-width: 300px;
     }
 }
 
