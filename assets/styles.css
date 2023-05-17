@@ -232,9 +232,10 @@ a.reseña:hover{
     display: flex;
     align-items: center;
     flex-direction: column;
+    /*flex-wrap: wrap;*/
 }
 
-@media (min-width: 576px) {
+@media (max-width: 576px) {
     #info p{
         min-width: 390px;
         font-size: 20px;
