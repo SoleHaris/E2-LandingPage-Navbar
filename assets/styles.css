@@ -147,7 +147,7 @@ main {
     }
 
     #hero p {
-        width: auto;
+        width: 340px;
     }
 }
 
@@ -237,7 +237,6 @@ a.reseña:hover{
 
 @media (max-width: 576px) {
     #hero img {
-        border-radius: 2px solid black;
         margin-top: 25px;
     }
 }
